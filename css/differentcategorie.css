@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family:myfont2 ;
+    src: url(fonts/Stopbuck.otf);
+  }
+.titre{
+    text-align: center;
+    top: 25px;
+    position: absolute;
+    font-family: "myfont2";
+    font-size: 50px;
+    color: #e27e4b;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #efe4dc;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; 
+    height: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #fffdfd;
+    margin-top: 20px;
+}
+
+.gauche-container, .droite-container, .milieux-container{
+    margin-top: 20px;
+    padding: 10px;  
+}
+.mileux-container{
+    width: 400x;
+    height: 400px;
+    background-color: #cbcbcb;
+}
+.gauche-container{
+    position: absolute;
+    right: 70%;
+    background-color: #d1a481 ;
+}
+.droite-container{
+    position: absolute;
+    left: 70%;
+    background-color: #85b5cc;
+}
+.photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #D3D596;
+    border-color: #52600a;
+    border-width: 3px;
+    color:#52600a ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#alan{
+    position: center;
+    border-radius: 70%;
+    margin-bottom: 25px;
+   width: 10px;
+}
+.machine{
+    position: absolute;
+    right: 30%;
+    height: 25%;
+    bottom: 390px;
+    
+}
+.maths{
+    position: absolute;
+    left: 30%;
+    height: 25%;
+    bottom: 390px;
+    
+}
+
+
+@font-face {
+    font-family:monfont ;
+    src: url(fonts/Stopbuck.otf);
+  }
+
+  figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'monfont';
+    color: #e27e4b;
+}
+.home-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'myFont';
+}

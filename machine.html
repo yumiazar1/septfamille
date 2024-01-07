@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>presentation du groupe</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+        <meta nname="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex">
+        <base target="_self"> 
+        <link href="css/machine.css" rel="stylesheet"/>
+        <script src="java/machine.js"></script>
+ 
+</head>
+ <body style="background-color: #f7ccad;"></body>
+    <header>
+      <!-- titre + bouton retour a la page d'accueilles-->
+        <h1>machines et composants</h1>
+        <a href="site page acceeuil.html"><img src="img/homepage.png" alt="Homepage" style="width: 5em; display: block; margin-top: -0.25em;"></a>
+        <figcaption>Page d'acceuil</figcaption>
+      </header>
+      <section>
+        <div class="photo-container">
+          <div class="photo-row">
+            <!-- Popup pour Photo 1 -->
+            <div class="popup" id="popup-1">
+              <div class="overlay" onclick="togglePopup('popup-1')"></div>
+              <div class="content">
+                <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+                <h1>John Von Neumann:</h1>
+                <p>John von Neumann (1903-1957) était un mathématicien, physicien et informaticien hongrois-américain. Il a contribué de manière significative à divers domaines, établissant une carrière éminente. Ses travaux en mathématiques, notamment la théorie des jeux, ont influencé l'économie et les sciences sociales. Dans les années 1940, il a joué le rôle clé dans le projet Manhattan, il a contribué au développement de la bombe atomique.
+                    Von Neumann est aussi célèbre pour ses contributions à l'informatique et à la cybernétique. Il a conçu l'architecture von Neumann, qui a jeté les bases des ordinateurs modernes en introduisant le concept de stockage de programmes dans la mémoire de l'ordinateur. Son travail pionnier dans le domaine de l'informatique a ouvert la voie à l'ère de l'information. Sa carrière exceptionnelle a laissé une empreinte indélébile sur les sciences et la technologie du XXe siècle.</p>
+              </div>
+            </div>
+            <img onclick="togglePopup('popup-1')" src="img/machine1.jpg" alt="Photo 1" class="photo">
+          </div>
+    
+          <div class="photo-row">
+            <!-- Popup pour Photo 2 -->
+            <div class="popup" id="popup-2">
+              <div class="overlay" onclick="togglePopup('popup-2')"></div>
+              <div class="content">
+                <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+                <h1>Hiroshi Ishiguro</h1>
+                <p>Hiroshi Ishiguro, né le 23 octobre 1963, est un éminent roboticien japonais, professeur à l'Université d'Osaka et directeur du Laboratoire de robotique intelligente. Sa renommée repose principalement sur ses avancées dans le domaine des androïdes, des robots humanoïdes reproduisant fidèlement l'apparence et le comportement humain. Attiré par la robotique depuis son enfance, Ishiguro a étudié l'informatique à l'Université de Yamanashi et l'ingénierie à l'Université d'Osaka, où il a obtenu son doctorat en robotique en 1993. En 1997, il a donné naissance à son premier androïde, Robovie, un robot de taille humaine capable de marcher, parler et exprimer des émotions. Cette réalisation marqua le début d'une série d'innovations, dont Geminoid HI-1, une réplique d'Ishiguro lui-même, Kodomoroid, un androïde enfant, et Erica, une androïde femme. Les recherches d'Ishiguro ont des répercussions significatives sur le développement de la robotique. Ses androïdes, capables de simuler de manière réaliste le comportement humain, ouvrent des perspectives importantes pour une amélioration de l'interaction entre humains et robots. Ces avancées pourraient trouver des applications dans des domaines tels que la santé, l'éducation et les services.
+                    Ishiguro demeure un pionnier de la robotique humanoïde, ayant largement contribué à l'évolution de ce domaine et ouvert de nouvelles possibilités pour l'intégration des robots dans notre quotidien.</p>
+              </div>
+            </div>
+            <img onclick="togglePopup('popup-2')" src="img/machine2.jpg" alt="Photo 2" class="photo">
+          </div>
+    
+          <div class="photo-row">
+            <!-- Popup pour Photo 3 -->
+            <div class="popup" id="popup-3">
+              <div class="overlay" onclick="togglePopup('popup-3')"></div>
+              <div class="content">
+                <div class="close-btn" onclick="togglePopup('popup-3')">&times;</div>
+                <h1>Gordon Moore</h1>
+                <p> Gordon Moore est né en 1929, qui est un ingénieur électronicien américain, co-fondateur d'Intel Corporation en
+                    1968. Il est connu pour la "loi de Moore",
+                    ', énoncée en 1965,
+                    prévoyant que le nombre de transistors sur une puce électronique doublerait environ tous les deux ans, ce qui a conduit à une croissance rapide de la puissance de calcul.
+                    Moore a débuté chez Fairchild Semiconductor, où il a travaillé sur des technologies innovantes. Avec Robert Noyce, il a cofondé Intel, une entreprise qui allait jouer un rôle majeur dans le développement des microprocesseurs. Sous sa direction en tant que PDG puis président d'Intel, la société est devenue un géant mondial de la technologie. La loi de Moore est devenue une référence fondamentale pour l'industrie informatique, guidant le progrès technologique. Moore a influencé non seulement le monde des semi-conducteurs, mais aussi l'ensemble du secteur informatique</p>
+              </div>
+            </div>
+            <img onclick="togglePopup('popup-3')" src="img/machine3.jpg" alt="Photo 3" class="photo">
+          </div>
+  
+          <div class="photo-row">
+            <!-- Popup pour Photo 4 -->
+            <div class="popup" id="popup-4">
+              <div class="overlay" onclick="togglePopup('popup-4')"></div>
+              <div class="content">
+                <div class="close-btn" onclick="togglePopup('popup-4')">&times;</div>
+                <h1>Seymour Cray</h1>
+                <p>Seymour Cray (1925-1996), ingénieur informaticien américain, a laissé une empreinte indélébile dans l'histoire de l'informatique en tant que pionnier des superordinateurs. Né à Chippewa Falls, Wisconsin, Cray a brillé dans l'ingénierie électrique à l'Université du Minnesota, avant de fonder Cray Research en 1972.
+                    Cray a révolutionné le secteur avec des créations marquantes telles que le Cray-1 (1976) et le Cray-2 (1985), introduisant des architectures vectorielles qui ont redéfini les normes de performances des superordinateurs. Sa vision technique et son engagement envers l'excellence ont continué avec le Cray-3 (1993).
+                    Malgré des défis, Cray a maintenu son leadership dans le domaine des superordinateurs, influençant profondément la recherche informatique et l'ingénierie des systèmes informatiques de grande envergure. Son décès en 1996 a marqué la fin d'une ère, mais son héritage perdure dans chaque avancée significative en informatique à grande échelle.</p>
+              </div>
+            </div>
+            <img onclick="togglePopup('popup-4')" src="img/machine4.jpg" alt="Photo 2" class="photo">
+          </div>
+  
+  <div class="photo-row">
+    <!-- Popup pour Photo 5 -->
+    <div class="popup" id="popup-5">
+      <div class="overlay" onclick="togglePopup('popup-5')"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup('popup-5')">&times;</div>
+        <h1>Hedy Lamarr</h1>
+        <p>Hedy Lamarr, née Hedwig Eva Maria Kiesler le 9 novembre 1914 à Vienne et morte le 19 janvier 2000 à Casselberry, en Floride, était une actrice et inventrice autrichienne naturalisée américaine. Elle est une figure emblématique de l'invention et de l'innovation. Elle commence sa carrière d'actrice en Autriche et en Tchécoslovaquie, où elle tourne notamment dans le film Ekstase (1933), qui fait scandale pour ses scènes de nudité. En 1937, elle épouse l'industriel américain Fritz Mandl. En 1938 et s'installe à Hollywood, où elle signe un contrat avec la MGM. Pendant la Seconde Guerre mondiale, Hedy Lamarr et le compositeur George Antheil, co-inventent un système de transmission de fréquence de saut, qui permet de rendre les communications radio ininterceptables. Cette invention est initialement sous-estimée, mais elle est finalement utilisée dans le développement du Wi-Fi, du Bluetooth et d'autres technologies de communication sans fil. Après la guerre, Hedy Lamarr poursuit sa carrière d'actrice, mais elle ne parvient pas à retrouver le succès de ses débuts. Elle divorce à six reprises et mène une vie tumultueuse, marquée par des problèmes financiers et des addictions. Par contre, son système de transmission de fréquence de saut a eu un impact majeur sur le développement des communications sans fil, et il continue d'être utilisé
+            aujourd'hui.</p>
+      </div>
+    </div>
+    <img onclick="togglePopup('popup-5')" src="img/machine5.jpg" alt="Photo 2" class="photo">
+  </div>
+  
+ 
+  <div class="photo-row">
+    <!-- Popup  pour Photo 6 -->
+    <div class="popup" id="popup-6">
+      <div class="overlay" onclick="togglePopup('popup-6')"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup('popup-6')">&times;</div>
+        <h1>Charles Babbage</h1>
+        <p>Charles Babbage (1791-1871), né à Londres, était un mathématicien et inventeur britannique, pionnier de l'informatique. Diplômé du Trinity College de Cambridge en 1814, il consacra plus de 30 ans à concevoir la
+            "machine analytique", précurseur des ordinateurs modernes. Bien qu'il n'ait jamais achevé sa construction en raison des limitations techniques de l'époque, sa vision a grandement influencé le développement ultérieur de l'informatique.
+            Babbage fut élu membre de la Royal Society en 1827 et fonda la Société des Sciences Mécaniques en 1835, qui devint plus tard la British Association for the Advancement of Science. En 1842, il publia le bestseller "On the Economy of Machinery and Manufactures". En 1854, il inventa la "machine différentielle", utilisée par le gouvernement britannique.
+            Au-delà de ses contributions à l'informatique, Babbage excella en astronomie, météorologie et cryptographie. Sa vision avant-gardiste du potentiel des machines pour automatiser les calculs a laissé un héritage durable, faisant de lui une figure clé dans l'histoire de l'informatique moderne.</p>
+      </div>
+    </div>
+    <img onclick="togglePopup('popup-6')" src="img/machine6.jpg" alt="Photo 2" class="photo">
+  </div>
+    </div>
+  </section>
+
+</body>
+</html>
